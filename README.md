@@ -1,7 +1,11 @@
 # WhatsApp Web Packet Analysis Repository
 
-Welcome to the hub dedicated to the exploration of the WhatsApp Web Packet Analysis project! Inside this repository, you will discover an assortment of code and resources meticulously crafted for the investigation of packets originating from group messages on WhatsApp's web platform. This endeavor entails packet sniffing, discerning message-associated packets, and crafting illuminating visualizations to expedite packet differentiation. The analytical journey unfolds in two distinctive phases: one involving meticulous packet examination and the other introducing an authentic ambiance through the harmonious strains of YouTube melodies in the backdrop.
-
+This is our WhatsApp Web Packet Analysis project, inside this repository you will discover an assortment of code and resources meticulously crafted for the investigation of packets originating from group messages on WhatsApp's web platform. 
+This project entails packet sniffing, discerning message-associated packets, and crafting illuminating visualizations to expedite packet differentiation.  
+The analytical journey unfolds in two distinctive phases: 
+• The attacked user is always active in (at most) a single IM group.
+• The attacked user may be active in several IM groups simultaneously. 
+יעיייעעעכ
 ## Table of Contents
 
 - [Introduction](#introduction)
