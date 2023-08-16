@@ -13,9 +13,8 @@ The analytical journey unfolds in two distinctive phases:
 - [Packet Examination](#packet-examination)
   - [Segment 1: Incorporating Filters](#segment-1-incorporating-filters)
   - [Segment 2: Devoid of Filters and Accompanied by Ambient Music](#segment-2-devoid-of-filters-and-accompanied-by-ambient-music)
-- [Visual Depictions](#visual-depictions)
-- [Participation](#participation)
-- [License](#license)
+- [Plots](#plots)
+- [Running instructions](#Running-instructionsn)
 
 ## Introduction
 
@@ -26,8 +25,8 @@ The fundamental aim of the WhatsApp Web Packet Analysis project is to meticulous
 The project architecture is carefully organized into three key domains:
 
 - `res`: Within this section, you'll find an array of graphical representations, each an outcome of the analytical process. These visuals encompass depictions that unravel the complex interplay between time and packet size, graphical insights into the probability density function (PDF) of packet sizes, and visualizations that articulate the complementary cumulative distribution function (CCDF) of packet sizes.
-- `resources`: This repository houses eight pcap files and eight CSV files, meticulously categorized into four for filtered packets and another four for unfiltered packets. These resources serve as the bedrock for the exhaustive analysis.
-- `src`: Nestled within this domain are four Python scripts, each designed to orchestrate a unique category of visual representation: CCDF plots, PDF plots, and elucidating visualizations that unravel the interplay between time and packet size.
+- `resources`: This repository houses eight pcap files and eight CSV files, meticulously categorized into four for filtered packets and another four for unfiltered packets.  
+- `src`: In this domain are two Python scripts, each designed to orchestrate a unique category of visual representation: CCDF plots, PDF plots, and elucidating visualizations that unravel the interplay between time and packet size.
 
 ## Packet Examination
 
@@ -39,15 +38,15 @@ During this pivotal phase, packet examination unfolds with meticulous precision 
 
 The second phase of packet examination eschews packet filters altogether, introducing an authentic layer of ambiance through the melodious backdrop of real-world noise. This auditory tapestry echoes the experience of YouTube melodies playing subtly in the background. The core objective in this phase is to assess the influence of real-world noise on the accuracy of packet analysis.
 
-## Visual Depictions
+## Plots
 
 Housed within the `res` section are a diverse array of graphical representations, each providing profound insights into the intricate process of packet analysis:
 
-- **Temporal Patterns vs. Packet Size**: These graphical representations cast a spotlight on the complex interplay between time and packet size, revealing underlying patterns and tendencies.
+- **Functions of Time vs. Packet Size**: These graphical representations cast a spotlight on the complex interplay between time and packet size, revealing underlying patterns and tendencies.
 - **Graphs of Probability Density Function (PDF)**: PDF graphs artistically capture the essence of the probability distribution of packet sizes. A total of eight graphical masterpieces are meticulously generated, addressing both filtered and unfiltered packets.
 - **Complementary Cumulative Distribution Function (CCDF) Graphs**: The CCDF graphs serve as visual orchestrations depicting the complementary cumulative distribution function of packet sizes. These graphs exclusively address the four packets that have undergone the meticulous filtration process.
 
-## Participation
+## Running instructions
 
 Your contributions to this endeavor are both valued and cherished! To contribute, we humbly request your adherence to the following guidelines:
 
@@ -60,3 +59,10 @@ Your contributions to this endeavor are both valued and cherished! To contribute
 Please ensure your contributions align seamlessly with the meticulously set coding standards and guidelines.
 
 We extend our heartfelt gratitude for your engagement and commitment to the WhatsApp Web Packet Analysis project!
+
+
+
+## Authors
+
+[@aronl096](https://github.com/aronl096)
+[@Masanbat12](https://github.com/Masanbat12)
