@@ -25,8 +25,9 @@ The fundamental aim of the WhatsApp Web Packet Analysis project is to meticulous
 The project architecture is carefully organized into three key domains:
 
 - `res`: Within this section, you'll find an array of graphical representations, each an outcome of the analytical process. These visuals encompass depictions that unravel the complex interplay between time and packet size, graphical insights into the probability density function (PDF) of packet sizes, and visualizations that articulate the complementary cumulative distribution function (CCDF) of packet sizes.
-- `resources`: This repository houses eight pcap files and eight CSV files, meticulously categorized into four for filtered packets and another four for unfiltered packets.  
-- `src`: In this domain are two Python scripts, each designed to orchestrate a unique category of visual representation: CCDF plots, PDF plots, and elucidating visualizations that unravel the interplay between time and packet size.
+- `resources`: This repository houses eight pcap files and eight CSV files, meticulously categorized into four for filtered packets and another four for unfiltered packets.   
+- `src`: In this domain are two Python scripts, one is for pcap files and the other for csv files, we use the code for csv files but these 2 scripts are there for the comfort of the user.  
+Every file contains CCDF plots, PDF plots, and elucidating visualizations that unravel the interplay between time and packet size. 
 
 ## Packet Examination
 
