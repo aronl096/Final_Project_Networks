@@ -7,8 +7,13 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-pcap_files = ["group1.pcap", "group2.pcap", "group3.pcap", "group4.pcap", "group5.pcap", "mix.pcap"]
-group_names = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "mix"]
+pcap_files = ["group1.pcap", "group2.pcap", "group3.pcap", "group4.pcap", "group5.pcap", "mix.pcap",
+              "record_with_background_noise_text.pcap", "record_with_background_noise_voice.pcap",
+              "record_with_background_noise_pic.pcap", "record_with_background_noise_video.pcap",
+              "record_with_background_noise_files.pcap"]
+group_names = ["Group 1", "Group 2", "Group 3", "Group 4", "Group 5", "mix", "record_with_background_noise_text",
+               "record_with_background_noise_voice", "record_with_background_noise_pic",
+               "record_with_background_noise_video", "record_with_background_noise_files"]
 
 
 def extract_data_from_pcap(pcap_file):
