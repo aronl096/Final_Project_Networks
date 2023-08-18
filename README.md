@@ -58,8 +58,6 @@ Your contributions to this endeavor are both valued and cherished! To contribute
 
 Please ensure your contributions align seamlessly with the meticulously set coding standards and guidelines.
 
-We extend our heartfelt gratitude for your engagement and commitment to the WhatsApp Web Packet Analysis project!
-
 
 
 ## Authors
