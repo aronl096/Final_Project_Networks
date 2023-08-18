@@ -64,5 +64,5 @@ We extend our heartfelt gratitude for your engagement and commitment to the What
 
 ## Authors
 
-[Aaron Luchan](https://github.com/aronl096)
+[Aaron Luchan](https://github.com/aronl096)  
 [Masanbat Mulo ](https://github.com/Masanbat12)
