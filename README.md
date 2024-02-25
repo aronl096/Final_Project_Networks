@@ -29,7 +29,7 @@ The project architecture is carefully organized into three key domains:
 - `src`: In this domain are two Python scripts, one is for pcap files and the other for csv files, we use the code for csv files but these 2 scripts are there for the comfort of the user.  
 Every file contains CCDF plots, PDF plots, and elucidating visualizations that unravel the interplay between time and packet size. 
 
-## Packet Examination
+## Packet Examination   
 
 ### Segment 1: Incorporating Filters
 
